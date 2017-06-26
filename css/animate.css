@@ -1,0 +1,109 @@
+.animate{
+    animation: 1s linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.forwards{
+    animation-fill-mode: forwards !important;
+}
+.movescale{
+    animation-name: movescale;
+}
+@keyframes movescale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.moveright{
+    animation: moveright 20s linear infinite alternate;
+}
+@keyframes moveright {
+    0%{transform: translateX(-4rem)}
+    50%{transform: translateX(0rem)}
+    100%{transform: translateX(6rem)}
+}
+.moveleft{
+    animation: moveleft 1s linear;
+}
+@keyframes moveleft {
+    0%{transform: translateX(-6rem)}
+    100%{transform: translateX(0rem)}
+}
+.movexingxing{
+    animation-name: movexingxing;
+}
+@keyframes movexingxing {
+    0%{transform: translateX(6rem)}
+    75%{transform:skew(-30deg)}
+    100%{transform: translateX(0rem)}
+}
+.movelist{
+    animation-name: movelist;
+}
+@keyframes movelist {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.movetext{
+    animation-name: movetext;
+}
+@keyframes movetext {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+.movetext2{
+    animation-name: movetext2;
+    animation-delay: 1s;
+}
+@keyframes movetext2 {
+    0%{transform: translateY(6rem);}
+
+    100%{transform: translateY(0rem)}
+}
+.moveright2{
+    animation-name: moveright2;
+}
+@keyframes moveright2 {
+    0%{transform: translateX(6rem)}
+    100%{transform: translateX(0rem)}
+}
+.right{
+    animation-name: right;
+    animation-delay:1s;
+}
+.left{
+    animation-name: left;
+    animation-delay:2s;
+}
+.scale{
+    animation-name: scale;
+    animation-delay:3s;
+}
+@keyframes right {
+    0%{transform: translateX(4rem)}
+    100%{transform: translateX(0rem)}
+}
+@keyframes left {
+    0%{transform: translateX(-4rem)}
+    100%{transform: translateX(0rem)}
+}
+@keyframes scale {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
